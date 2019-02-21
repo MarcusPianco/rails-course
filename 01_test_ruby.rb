@@ -1,4 +1,4 @@
-# puts 'Olá Curso Rails'
+puts 'Olá Curso Rails'
 
 ################
 
@@ -6,11 +6,17 @@
 #chomps=> remove "\n" da formatação da palavra.
 #inspect=> mostra toda a string incluíndo elementos ocultos ou foratações inseridas
 #tal como a "\n" no gets
+
 name = gets.chomp
 puts name 
 puts 
 puts name.inspect
 
 
-###################
+
+
+
+
+
+
 
