@@ -9,5 +9,24 @@ end
 #unless=> A menos que 
 unless x<=20
     puts x.to_s << " é Maior que 20 uhuuu"
-
 end
+
+puts x.class
+
+#Case
+case x
+
+when  20..100
+    puts "Maio de Idade"
+
+when 0..18
+    puts "Menor de idade"
+else
+    puts "Não é deste mundo"
+end
+
+#Condicional ternário
+sexo="M"
+puts(sexo == "M" ?  "Masculino": "Feminino")
+
+sexo == "M" ?  (puts "Masculino"): (puts "Feminino")
