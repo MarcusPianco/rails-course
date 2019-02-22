@@ -1,27 +1,27 @@
 # Project Title
 
-One Paragraph of project description goes here
-
+This is a Repository that contains ruby files and rails projects that were used durin udemy rails course. 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+```
+You need of a terminal unix and wish of to learn. 
+```
 
-```
-Give examples
-```
 
 ### Installing
+Do you need to install ruby and rails gem to run some sources these repository.
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
 
 ```
-Give the example
+Before install Ruby, please install rvm.
+after install rvm run these commands: 
+rvm install 2.6.0
+gem install rails 
 ```
 
 And repeat
@@ -64,11 +64,11 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://gist.github.com/marcuspianco) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+I'm use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/marcuspianco/rails-course/tags). 
 
 ## Authors
 
