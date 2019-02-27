@@ -30,3 +30,8 @@ sexo="M"
 puts(sexo == "M" ?  "Masculino": "Feminino")
 
 sexo == "M" ?  (puts "Masculino"): (puts "Feminino")
+
+
+x = 1 
+
+x == 1 ? (puts 1) : (puts 0)

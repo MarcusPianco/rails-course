@@ -10,6 +10,11 @@ end
 (0..10).each do |i|
     puts 'o valor de i=' << i.to_s
 end 
+a =0
+5.times do |i|
+    puts a
+    a+=1
+end
 
 #each
 ['A','B',49].each do |i|
