@@ -2,7 +2,7 @@
 class Pessoa
 
     def initialize(nome_fornecido)
-        #com @ significa que é uma variavel do objeto e nnao é partilhada
+        #com @ significa que é uma variavel do objeto e no é partilhada
         @nome = nome_fornecido
     end
 

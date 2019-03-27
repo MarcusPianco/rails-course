@@ -12,6 +12,9 @@ puts name
 puts 
 puts name.inspect
 
+nome = gets
+puts 
+puts nome.inspect
 
 
 

@@ -15,11 +15,9 @@ puts x.class
 
 #Case
 case x
-
 when  20..100
-    puts "Maio de Idade"
-
-when 0..18
+    puts "Maior de Idade"
+when  0..18
     puts "Menor de idade"
 else
     puts "Não é deste mundo"
@@ -28,8 +26,12 @@ end
 #Condicional ternário
 sexo="M"
 puts(sexo == "M" ?  "Masculino": "Feminino")
+n=""
+puts (n==""? "":"algo")
+a="a"
+a == 'a' ? (puts "a"):(puts "b")
 
-sexo == "M" ?  (puts "Masculino"): (puts "Feminino")
+sexo == "I" ?  (puts "Masculino"): (puts "Feminino")
 
 
 x = 1 

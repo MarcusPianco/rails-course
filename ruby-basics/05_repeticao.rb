@@ -15,7 +15,6 @@ a =0
     puts a
     a+=1
 end
-
 #each
 ['A','B',49].each do |i|
     puts 'o valor de i=' << i.to_s

@@ -19,6 +19,6 @@ class Pessoa
 
 end
 
-p = Pessoa.new
+p = Pessoa.new(20)
 puts p.falar("123","45mil ")
 

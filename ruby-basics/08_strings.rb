@@ -22,6 +22,7 @@ variavelinter='Piancation'
 
 v = "Marcus #{variavelinter}"
 puts v
+b = "Marcus aqui pega #{v}"
 #não funciona com aspas simples
 inter = 'Inet not #{variavelinter}'
 puts inter

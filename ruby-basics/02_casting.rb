@@ -9,3 +9,6 @@ y = "1.2"
 idade = gets.chomp.to_i
 puts idade.class
 puts y.to_f.class
+
+z = 1
+puts z.class
