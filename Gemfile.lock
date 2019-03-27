@@ -1,9 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    concurrent-ruby (1.1.5)
+    cpf_utils (1.3.1)
     debase (0.2.2)
       debase-ruby_core_source (>= 0.10.2)
     debase-ruby_core_source (0.10.4)
+    faker (1.9.3)
+      i18n (>= 0.7)
+    i18n (1.6.0)
+      concurrent-ruby (~> 1.0)
+    lerolero (8.7.6)
     rake (12.3.2)
     ruby-debug-ide (0.6.1)
       rake (>= 0.8.1)
@@ -12,7 +19,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  cpf_utils
   debase
+  faker
+  lerolero
   ruby-debug-ide
 
 RUBY VERSION
