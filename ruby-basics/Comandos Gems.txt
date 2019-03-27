@@ -1,0 +1,18 @@
+#local all
+gem list 
+#local <gem_name>
+gem list <gem_name>
+#remote <gem_name>
+gem list <gem_name> --remote
+#remote all versions <gem_name>
+gem list <gem_name> --remote --all
+#install
+gem install <name_gem>
+#install with versions
+gem install <name_gem> -v <version eg.0.0.0.0>
+#remove
+gem uninstall <name_gem>
+#clear old gems version
+gem cleanup <name_gem>
+#verify old gems
+gem cleanup -d
